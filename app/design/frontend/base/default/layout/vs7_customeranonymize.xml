@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <customer_account>
+        <reference name="customer_account_navigation">
+            <action method="addLink" ifconfig="vs7_customeranonymize/configuration/enabled">
+                <name>delete</name>
+                <path>vs7_customeranonymize/customer/deleteconfirmation</path>
+                <label>Delete Account</label>
+            </action>
+        </reference>
+    </customer_account>
+
+    <vs7_customeranonymize_customer_deleteconfirmation>
+        <update handle="customer_account"/>
+        <reference name="content">
+            <block type="vs7_customeranonymize/deleteconfirmation" name="deleteconfirmation" template="vs7_customeranonymize/confirmation.phtml"/>
+            <block type="customer/account_dashboard" name="customer.account.link.back" template="customer/account/link/back.phtml"/>
+        </reference>
+    </vs7_customeranonymize_customer_deleteconfirmation>
+</layout>

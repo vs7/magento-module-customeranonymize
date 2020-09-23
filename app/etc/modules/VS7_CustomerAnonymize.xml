@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <VS7_CustomerAnonymize>
+            <active>true</active>
+            <codePool>community</codePool>
+        </VS7_CustomerAnonymize>
+    </modules>
+</config>

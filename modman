@@ -1,0 +1,4 @@
+app/code/community/VS7/CustomerAnonymize                             app/code/community/VS7/CustomerAnonymize
+app/etc/modules/VS7_CustomerAnonymize.xml                            app/etc/modules/VS7_CustomerAnonymize.xml
+app/design/frontend/base/default/layout/vs7_customeranonymize.xml    app/design/frontend/base/default/layout/vs7_customeranonymize.xml
+app/design/frontend/base/default/template/vs7_customeranonymize      app/design/frontend/base/default/template/vs7_customeranonymize
